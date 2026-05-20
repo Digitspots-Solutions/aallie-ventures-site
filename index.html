@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Blessed Foods Technology Limited - Transforming Nigeria's Food Value Chain</title>
+    <title>Is Blessed Energy Resources Limited - Engineering Excellence in Nigeria's Energy Sector</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,400;0,600;1,300&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #152c15;
-            --accent-color: #439d18;
-            --bg-color: #EEF6E8;
-            --text-color: #1C2E18;
-            --surface-color: #1e3319;
-            --secondary-accent: #b94a1e;
-            --font-display: 'Josefin Slab', serif;
-            --font-body: 'Nunito Sans', sans-serif;
-            --border-radius: 12px;
+            --color-primary: #0d193b;
+            --color-accent: #c8c80a;
+            --color-bg: #F8F6F0;
+            --color-text: #0C1B2E;
+            --color-surface: #1d2b48;
+            --color-secondary-accent: #718e96;
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Manrope', sans-serif;
+            --border-radius: 2px;
         }
 
         * {
@@ -32,16 +32,10 @@
 
         body {
             font-family: var(--font-body);
-            color: var(--text-color);
-            background: var(--bg-color);
-            line-height: 1.7;
+            color: var(--color-text);
+            background-color: var(--color-bg);
+            line-height: 1.6;
             overflow-x: hidden;
-        }
-
-        h1, h2, h3, h4 {
-            font-family: var(--font-display);
-            font-weight: 600;
-            line-height: 1.2;
         }
 
         @keyframes fadeUp {
@@ -55,20 +49,19 @@
             }
         }
 
-        /* Navigation */
         nav {
             position: sticky;
             top: 0;
-            background: rgba(238, 246, 232, 0.95);
+            background: rgba(248, 246, 240, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(21, 44, 21, 0.1);
+            border-bottom: 1px solid rgba(13, 25, 59, 0.1);
         }
 
         .nav-container {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -76,27 +69,27 @@
 
         .logo {
             font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--primary-color);
-            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--color-primary);
         }
 
         .nav-links {
-            display: flex;
             list-style: none;
+            display: flex;
             gap: 2rem;
         }
 
         .nav-links a {
             text-decoration: none;
-            color: var(--text-color);
-            font-weight: 600;
+            color: var(--color-text);
+            font-weight: 500;
             transition: color 0.3s ease;
+            font-size: 0.95rem;
         }
 
         .nav-links a:hover {
-            color: var(--accent-color);
+            color: var(--color-accent);
         }
 
         .mobile-menu-btn {
@@ -104,12 +97,13 @@
             flex-direction: column;
             cursor: pointer;
             gap: 4px;
+            z-index: 1001;
         }
 
         .mobile-menu-btn span {
             width: 25px;
             height: 3px;
-            background: var(--text-color);
+            background: var(--color-text);
             transition: all 0.3s ease;
             transform-origin: center;
         }
@@ -132,7 +126,7 @@
             right: -100%;
             width: 300px;
             height: calc(100vh - 70px);
-            background: var(--bg-color);
+            background: var(--color-bg);
             box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
@@ -153,7 +147,7 @@
 
         .mobile-menu ul a {
             text-decoration: none;
-            color: var(--text-color);
+            color: var(--color-text);
             font-size: 1.1rem;
             font-weight: 500;
             transition: color 0.3s ease;
@@ -162,29 +156,61 @@
         }
 
         .mobile-menu ul a:hover {
-            color: var(--accent-color);
+            color: var(--color-accent);
         }
 
-        /* Hero Section */
+        section {
+            padding: 80px 2rem;
+        }
+
         #hero {
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        #about {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.1s;
+        }
+
+        #services {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.2s;
+        }
+
+        #team {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        #why-choose-us {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.4s;
+        }
+
+        #contact {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.5s;
+        }
+
+        .hero-section {
             position: relative;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
+            color: white;
+            overflow: hidden;
         }
 
-        .hero-bg {
+        .hero-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: -2;
+            z-index: 1;
         }
 
         .hero-overlay {
@@ -194,228 +220,265 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: -1;
+            z-index: 2;
         }
 
         .hero-content {
+            position: relative;
+            z-index: 3;
             max-width: 900px;
-            color: white;
+            padding: 2rem;
         }
 
         .hero-content h1 {
+            font-family: var(--font-display);
             font-size: 3.5rem;
+            font-weight: 700;
             margin-bottom: 1.5rem;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            color: var(--color-accent);
         }
 
         .hero-content p {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             margin-bottom: 2rem;
             line-height: 1.8;
+            opacity: 0.95;
         }
 
         .cta-button {
             display: inline-block;
             padding: 1rem 2.5rem;
-            background: var(--accent-color);
-            color: white;
+            background: var(--color-accent);
+            color: var(--color-primary);
             text-decoration: none;
-            border-radius: var(--border-radius);
             font-weight: 600;
+            border-radius: var(--border-radius);
+            transition: all 0.3s ease;
             font-size: 1.1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 15px rgba(67, 157, 24, 0.3);
         }
 
         .cta-button:hover {
+            background: #e0e00f;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(67, 157, 24, 0.4);
         }
-
-        /* Section Styles */
-        section {
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
-        }
-
-        section:nth-child(2) { animation-delay: 0.1s; }
-        section:nth-child(3) { animation-delay: 0.2s; }
-        section:nth-child(4) { animation-delay: 0.3s; }
-        section:nth-child(5) { animation-delay: 0.4s; }
-        section:nth-child(6) { animation-delay: 0.5s; }
 
         .container {
             max-width: 1400px;
             margin: 0 auto;
         }
 
-        h2 {
+        .section-title {
+            font-family: var(--font-display);
             font-size: 2.8rem;
-            color: var(--primary-color);
-            margin-bottom: 3rem;
-            text-align: center;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+            position: relative;
         }
 
-        /* About Section */
-        #about {
-            background: white;
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--color-accent);
+            margin-top: 1rem;
         }
 
-        .about-grid {
+        .split-layout {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
             align-items: center;
         }
 
-        .about-image {
+        .split-layout img {
             width: 100%;
             height: 500px;
             object-fit: cover;
             border-radius: var(--border-radius);
-            box-shadow: 0 10px 40px rgba(21, 44, 21, 0.15);
         }
 
-        .about-text {
-            font-size: 1.1rem;
-            line-height: 1.9;
+        .split-content h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
         }
 
-        /* Services Section */
+        .split-content p {
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
         #services {
-            background: var(--bg-color);
+            background: white;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
-            background: white;
             padding: 2rem;
+            background: var(--color-bg);
+            border-left: 4px solid var(--color-accent);
             border-radius: var(--border-radius);
-            box-shadow: 0 5px 20px rgba(21, 44, 21, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease;
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(21, 44, 21, 0.15);
         }
 
         .service-card h3 {
-            color: var(--accent-color);
+            font-family: var(--font-display);
             font-size: 1.5rem;
+            color: var(--color-primary);
             margin-bottom: 1rem;
         }
 
         .service-card p {
+            line-height: 1.7;
+            color: var(--color-text);
+        }
+
+        #team {
+            background: var(--color-surface);
+            color: white;
+        }
+
+        #team .section-title {
+            color: white;
+        }
+
+        #team .section-title::after {
+            background: var(--color-accent);
+        }
+
+        .team-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .team-content p, .team-content ul {
+            font-size: 1.05rem;
             line-height: 1.8;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
         }
 
-        /* Why Choose Us Section */
-        #why-choose-us {
-            background: white;
+        .team-content ul {
+            text-align: left;
+            list-style-position: inside;
         }
 
-        .why-grid {
+        .team-content ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        .why-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
         }
 
         .why-card {
-            padding: 2rem;
-            background: var(--bg-color);
+            padding: 2.5rem;
+            background: white;
             border-radius: var(--border-radius);
-            border-left: 4px solid var(--accent-color);
+            border-top: 3px solid var(--color-accent);
         }
 
         .why-card h3 {
-            color: var(--primary-color);
-            font-size: 1.4rem;
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            color: var(--color-primary);
             margin-bottom: 1rem;
         }
 
         .why-card p {
-            line-height: 1.8;
+            line-height: 1.7;
+            color: var(--color-text);
         }
 
-        /* Contact Section */
         #contact {
-            background: var(--primary-color);
-            color: white;
-            text-align: center;
+            background: white;
         }
 
-        #contact h2 {
-            color: white;
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 3rem;
         }
 
-        .contact-content {
-            max-width: 800px;
-            margin: 0 auto;
+        .contact-info h3 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
         }
 
-        .contact-content p {
-            font-size: 1.2rem;
-            margin-bottom: 3rem;
-            line-height: 1.9;
+        .contact-info p {
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
         }
 
-        .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-            margin-bottom: 2rem;
+        .contact-info strong {
+            color: var(--color-primary);
+            display: block;
+            margin-top: 1.5rem;
         }
 
-        .contact-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .contact-item a {
-            color: var(--accent-color);
+        .contact-info a {
+            color: var(--color-accent);
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: color 0.3s ease;
+            font-weight: 500;
         }
 
-        .contact-item a:hover {
-            color: white;
+        .contact-info a:hover {
+            text-decoration: underline;
         }
 
-        .contact-label {
-            font-size: 0.9rem;
-            opacity: 0.8;
+        .contact-image {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
         }
 
-        .whatsapp-btn {
+        .whatsapp-button {
             display: inline-block;
-            padding: 1rem 2.5rem;
+            padding: 0.8rem 2rem;
             background: #25D366;
             color: white;
             text-decoration: none;
             border-radius: var(--border-radius);
             font-weight: 600;
-            font-size: 1.1rem;
             margin-top: 1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: background 0.3s ease;
         }
 
-        .whatsapp-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        .whatsapp-button:hover {
+            background: #20BA5A;
         }
 
-        /* WhatsApp Floating Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
@@ -427,10 +490,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
             z-index: 999;
-            transition: transform 0.3s ease;
             text-decoration: none;
+            transition: transform 0.3s ease;
         }
 
         .whatsapp-float:hover {
@@ -438,25 +501,31 @@
         }
 
         .whatsapp-float::before {
-            content: "💬";
-            font-size: 2rem;
+            content: '💬';
+            font-size: 28px;
         }
 
-        /* Footer */
         footer {
-            background: var(--surface-color);
+            background: var(--color-primary);
             color: white;
             text-align: center;
             padding: 2rem;
         }
 
-        /* Responsive */
+        footer p {
+            opacity: 0.9;
+        }
+
         @media (max-width: 1024px) {
+            section {
+                padding: 60px 1.5rem;
+            }
+
             .hero-content h1 {
                 font-size: 2.8rem;
             }
 
-            h2 {
+            .section-title {
                 font-size: 2.3rem;
             }
         }
@@ -478,32 +547,32 @@
                 font-size: 2rem;
             }
 
+            .hero-content .tagline {
+                font-size: 1.2rem;
+            }
+
             .hero-content p {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
 
-            h2 {
-                font-size: 1.9rem;
-                margin-bottom: 2rem;
+            .section-title {
+                font-size: 1.8rem;
             }
 
-            .about-grid {
+            .split-layout,
+            .contact-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .about-image {
+            .split-layout img,
+            .contact-image {
                 height: 300px;
             }
 
             .services-grid,
-            .why-grid {
+            .why-cards {
                 grid-template-columns: 1fr;
-            }
-
-            .contact-info {
-                flex-direction: column;
-                gap: 1.5rem;
             }
 
             .whatsapp-float {
@@ -514,7 +583,7 @@
             }
 
             .whatsapp-float::before {
-                font-size: 1.5rem;
+                font-size: 24px;
             }
         }
     </style>
@@ -522,12 +591,13 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="#hero" class="logo">Is Blessed Foods</a>
+            <div class="logo">Is Blessed Energy</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#why-choose-us">Why Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -536,36 +606,39 @@
                 <span></span>
             </div>
         </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#why-choose-us">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="mobile-menu">
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#why-choose-us">Why Choose Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-
-    <section id="hero">
-        <img src="https://images.pexels.com/photos/944506/pexels-photo-944506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Nigerian farmland" class="hero-bg">
+    <section id="hero" class="hero-section">
+        <img src="https://images.pexels.com/photos/30422706/pexels-photo-30422706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Is Blessed Energy Resources" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Is Blessed Foods Technology Limited</h1>
-            <p>Transforming Nigeria's food value chain through innovative technology and quality agri-food solutions</p>
-            <p>Welcome to Is Blessed Foods Technology Limited – Where Innovation Meets Agriculture. We are pioneering the future of Nigeria's food industry through cutting-edge technology and sustainable agricultural practices. From farm to table, we deliver quality, freshness, and innovation that nourishes communities across Nigeria.</p>
+            <h1>Is Blessed Energy Resources Limited</h1>
+            <p class="tagline">Engineering Excellence in Nigeria's Energy Sector</p>
+            <p>Your Trusted Partner in Petroleum Engineering Solutions</p>
+            <p>Delivering world-class oil and gas services across Nigeria with technical expertise, safety compliance, and operational excellence. From upstream to downstream operations, we power Nigeria's energy future.</p>
             <a href="#contact" class="cta-button">Get In Touch</a>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <h2>About Us</h2>
-            <div class="about-grid">
-                <img src="https://images.pexels.com/photos/5953827/pexels-photo-5953827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Food processing facility" class="about-image">
-                <div class="about-text">
-                    <p>Is Blessed Foods Technology Limited (also known as Is Blessed AgriFoods Nigeria Limited) is a forward-thinking FoodTech company committed to revolutionizing Nigeria's agricultural landscape. Founded by visionary AgriTech leaders, we bridge the gap between traditional farming methods and modern technology to create sustainable food solutions. Our mission is to enhance food security, support local farmers, and deliver premium agri-food products that meet international standards while staying rooted in Nigerian excellence. We leverage innovative processing techniques, quality control systems, and efficient distribution networks to ensure that every product bearing our name represents the very best of Nigerian agriculture.</p>
+            <div class="split-layout">
+                <img src="https://images.pexels.com/photos/12641124/pexels-photo-12641124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Is Blessed Energy Resources">
+                <div class="split-content">
+                    <h2>Who We Are</h2>
+                    <p>Is Blessed Energy Resources Limited (also trading as Is Blessed Petroleum Services Co) is a Nigerian oil and gas service company founded and led by experienced petroleum engineers. We are headquartered in Jos, Plateau State, and serve clients across Nigeria's energy sector.</p>
+                    <p>Our company combines international best practices with deep local knowledge to deliver reliable, cost-effective petroleum engineering solutions. We understand the unique challenges of operating in Nigeria's oil and gas industry and provide services that meet both regulatory requirements and operational demands.</p>
+                    <p>With a commitment to safety, environmental stewardship, and technical excellence, Is Blessed Energy Resources Limited has built a reputation as a dependable partner for oil and gas operators seeking quality service delivery.</p>
                 </div>
             </div>
         </div>
@@ -573,55 +646,82 @@
 
     <section id="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <h2 class="section-title">Comprehensive Petroleum Engineering Solutions</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">We offer a full spectrum of oil and gas services designed to optimize your operations:</p>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Agricultural Technology Solutions</h3>
-                    <p>We provide farmers with access to modern farming tools, training, and tech-enabled farming practices that increase yield and reduce waste.</p>
+                    <h3>Petroleum Engineering Consulting</h3>
+                    <p>Expert guidance on reservoir management, production optimization, and field development planning tailored to Nigerian geological conditions.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Food Processing & Packaging</h3>
-                    <p>Our state-of-the-art facilities process raw agricultural products into market-ready goods with extended shelf life and preserved nutritional value.</p>
+                    <h3>Drilling Services & Support</h3>
+                    <p>Technical supervision, drilling program design, and on-site engineering support for exploration and production drilling operations.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Quality Agri-Food Products</h3>
-                    <p>From grains and cereals to processed foods, we supply businesses and consumers with premium products sourced from trusted Nigerian farms.</p>
+                    <h3>Production Operations</h3>
+                    <p>Well testing, production monitoring, artificial lift optimization, and facility maintenance to maximize asset performance.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Supply Chain Management</h3>
-                    <p>We connect farmers directly to markets, eliminating middlemen and ensuring fair prices while maintaining product quality throughout the distribution chain.</p>
+                    <h3>Procurement & Supply</h3>
+                    <p>Reliable sourcing and delivery of quality oilfield equipment, consumables, and technical supplies with full compliance documentation.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Agricultural Training & Consulting</h3>
-                    <p>We empower farmers and agribusiness entrepreneurs with knowledge, best practices, and strategic guidance to build profitable, sustainable operations.</p>
+                    <h3>HSE Management</h3>
+                    <p>Comprehensive health, safety, and environmental services ensuring compliance with DPR regulations and international standards.</p>
                 </div>
+                <div class="service-card">
+                    <h3>Training & Capacity Building</h3>
+                    <p>Technical training programs for petroleum operations personnel, safety certifications, and skills development workshops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <div class="team-content">
+                <h2 class="section-title">Led by Experienced Petroleum Engineers</h2>
+                <p>Is Blessed Energy Resources Limited is led by qualified petroleum engineers with extensive experience in Nigeria's oil and gas sector. Our leadership team brings together technical expertise, industry knowledge, and a commitment to operational excellence.</p>
+                <p style="text-align: left; margin-top: 2rem;"><strong>Our team includes:</strong></p>
+                <ul>
+                    <li>Licensed petroleum engineers with upstream and downstream experience</li>
+                    <li>Certified HSE professionals trained to international standards</li>
+                    <li>Technical specialists in drilling, production, and facilities operations</li>
+                    <li>Experienced project managers with proven track records in Nigerian oil fields</li>
+                    <li>Supply chain professionals with deep industry networks</li>
+                </ul>
+                <p style="margin-top: 2rem;">We invest continuously in our people through training, professional development, and exposure to global best practices, ensuring that our clients receive services from qualified, competent professionals.</p>
             </div>
         </div>
     </section>
 
     <section id="why-choose-us">
         <div class="container">
-            <h2>Why Choose Is Blessed</h2>
-            <div class="why-grid">
+            <h2 class="section-title">The Is Blessed Energy Resources Advantage</h2>
+            <div class="why-cards">
                 <div class="why-card">
-                    <h3>Technology-Driven Excellence</h3>
-                    <p>We combine traditional agricultural wisdom with cutting-edge FoodTech innovations to deliver superior results.</p>
+                    <h3>Technical Expertise</h3>
+                    <p>Our petroleum engineers bring proven technical capabilities to every project, ensuring optimal solutions for complex operational challenges.</p>
                 </div>
                 <div class="why-card">
-                    <h3>Quality Assurance</h3>
-                    <p>Every product undergoes rigorous quality checks, ensuring you receive only the finest agri-food products Nigeria has to offer.</p>
+                    <h3>Local Knowledge</h3>
+                    <p>As a Nigerian company, we understand local regulations, operating conditions, and the specific needs of clients working in Nigeria's oil and gas sector.</p>
                 </div>
                 <div class="why-card">
-                    <h3>Supporting Local Farmers</h3>
-                    <p>We create sustainable livelihoods by partnering directly with Nigerian farmers, providing them fair prices and access to larger markets.</p>
+                    <h3>Safety First</h3>
+                    <p>We maintain rigorous safety standards on every project, protecting personnel, assets, and the environment.</p>
                 </div>
                 <div class="why-card">
-                    <h3>Nationwide Reach</h3>
-                    <p>Based in Kaduna with operations across Nigeria, we serve businesses and communities from Lagos to Maiduguri, ensuring timely delivery and consistent supply.</p>
+                    <h3>Reliable Service Delivery</h3>
+                    <p>We pride ourselves on meeting commitments, delivering quality work on schedule, and maintaining clear communication throughout every engagement.</p>
                 </div>
                 <div class="why-card">
-                    <h3>Commitment to Sustainability</h3>
-                    <p>Our practices prioritize environmental responsibility, food security, and long-term agricultural sustainability for future generations.</p>
+                    <h3>Cost Effectiveness</h3>
+                    <p>Our solutions are designed to optimize your operations while respecting budget constraints, delivering value without compromising quality.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Regulatory Compliance</h3>
+                    <p>We ensure all services meet DPR requirements and industry standards, protecting our clients from compliance risks.</p>
                 </div>
             </div>
         </div>
@@ -629,33 +729,48 @@
 
     <section id="contact">
         <div class="container">
-            <div class="contact-content">
-                <h2>Get In Touch</h2>
-                <p>Ready to partner with Nigeria's leading FoodTech innovator? Whether you're a farmer looking to expand your reach, a business seeking quality agri-food products, or an investor interested in the future of Nigerian agriculture, Is Blessed Foods Technology Limited is here to serve you. Contact us today and let's grow together.</p>
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="contact-label">Phone</span>
-                        <a href="tel:+2348039672303">+234 803 967 2303</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">Email</span>
-                        <a href="mailto:info@isblessedng.com">info@isblessedng.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">Address</span>
-                        <span>Pp10 Warri Street by Kano Road, Kaduna, Nigeria</span>
-                    </div>
+                    <h3>Ready to discuss your petroleum engineering needs?</h3>
+                    <p>Our team is available to provide consultations, project quotations, and technical support.</p>
+                    
+                    <p><strong>Is Blessed Energy Resources Limited</strong><br>
+                    (Also trading as: Is Blessed Petroleum Services Co)</p>
+                    
+                    <p><strong>Office Address:</strong><br>
+                    COCiN LCC1 FURAKA<br>
+                    Jos North, Plateau State<br>
+                    Nigeria</p>
+                    
+                    <p><strong>Phone:</strong> <a href="tel:+2348174758059">+234 817 475 8059</a></p>
+                    
+                    <p><strong>Email:</strong> <a href="mailto:info@isblessedng.com">info@isblessedng.com</a></p>
+                    
+                    <p><strong>Website:</strong> <a href="http://www.isblessedng.com" target="_blank">www.isblessedng.com</a></p>
+                    
+                    <p><strong>Business Hours:</strong><br>
+                    Monday - Friday: 8:00 AM - 5:00 PM<br>
+                    Saturday: 9:00 AM - 2:00 PM</p>
+                    
+                    <p>For urgent operational support or emergency services, please call our 24-hour hotline.</p>
+                    
+                    <a href="https://wa.me/2348174758059" class="whatsapp-button" target="_blank">Message us on WhatsApp</a>
+                    
+                    <p style="margin-top: 2rem;">We look forward to partnering with you on your next oil and gas project.</p>
                 </div>
-                <a href="https://wa.me/2348039672303" class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
+                <img src="https://images.pexels.com/photos/12955940/pexels-photo-12955940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Contact Us" class="contact-image">
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Is Blessed Foods Technology Limited. All rights reserved.</p>
-    </footer>
+    <a href="https://wa.me/2348174758059" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp"></a>
 
-    <a href="https://wa.me/2348039672303" class="whatsapp-float" target="_blank"></a>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Is Blessed Energy Resources Limited. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script>
         // Mobile menu toggle
