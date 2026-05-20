@@ -1,49 +1,49 @@
 {
-  "businessName": "Aallie Ventures",
-  "industry": "Manufacturing",
-  "tone": "professional and confident",
-  "tagline": "Engineering Excellence in Nigerian Manufacturing",
+  "businessName": "Is Blessed Foods Technology Limited",
+  "industry": "FoodTech & AgriTech",
+  "tone": "warm, innovative, trustworthy",
+  "tagline": "Transforming Nigeria's food value chain through innovative technology and quality agri-food solutions",
   "sections": [
     {
       "id": "hero",
-      "name": "Hero Section",
-      "copy": "Welcome to Aallie Ventures - Your Trusted Manufacturing Partner in Jos. We deliver precision-engineered manufacturing solutions that power Nigerian businesses forward. From concept to completion, we transform raw materials into quality products that meet international standards while serving local needs.",
-      "imagePrompt": "Wide angle photograph of a modern Nigerian manufacturing facility in Jos, Plateau State, showing clean industrial workspace with precision machinery, skilled workers in safety gear operating equipment, bright natural lighting through large windows, organized production floor with quality control stations, professional industrial atmosphere, sharp focus, high resolution, vibrant colors showing productive activity",
+      "name": "Hero",
+      "copy": "Welcome to Is Blessed Foods Technology Limited – Where Innovation Meets Agriculture. We are pioneering the future of Nigeria's food industry through cutting-edge technology and sustainable agricultural practices. From farm to table, we deliver quality, freshness, and innovation that nourishes communities across Nigeria.",
+      "imagePrompt": "Vibrant Nigerian farmland at golden hour with modern agricultural technology, drone flying over lush green crops, farmers using tablets in the field, warm sunlight casting long shadows, photorealistic, high-quality food production facility in background, hopeful and prosperous atmosphere",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Aallie Ventures is a leading manufacturing company based in Jos North, Plateau State. Operating from our facility at COCiN LCC1 Furaka, we have established ourselves as a reliable partner for businesses seeking quality manufacturing solutions across Nigeria. Our commitment to excellence, precision engineering, and timely delivery has made us the preferred choice for companies looking to manufacture products that meet both local requirements and international quality standards. We combine modern manufacturing techniques with deep understanding of the Nigerian market to deliver solutions that work. Our team of experienced engineers and technicians work with dedication to ensure every project meets the highest standards of quality and durability. At Aallie Ventures, we don't just manufacture products - we build partnerships that help Nigerian businesses grow and succeed.",
-      "imagePrompt": "Professional photograph of a Nigerian manufacturing company leadership team standing confidently in their Jos factory, wearing business casual attire with safety vests, backdrop showing organized production equipment and finished products on display, warm lighting, diverse team members, sense of pride and professionalism, modern industrial setting in Plateau State",
+      "copy": "Is Blessed Foods Technology Limited (also known as Is Blessed AgriFoods Nigeria Limited) is a forward-thinking FoodTech company committed to revolutionizing Nigeria's agricultural landscape. Founded by visionary AgriTech leaders, we bridge the gap between traditional farming methods and modern technology to create sustainable food solutions. Our mission is to enhance food security, support local farmers, and deliver premium agri-food products that meet international standards while staying rooted in Nigerian excellence. We leverage innovative processing techniques, quality control systems, and efficient distribution networks to ensure that every product bearing our name represents the very best of Nigerian agriculture.",
+      "imagePrompt": "Modern Nigerian food processing facility interior, stainless steel equipment, quality control staff in white coats inspecting fresh produce, clean and professional environment, natural lighting through large windows, bags of processed grains and packaged foods, photorealistic, African professionals at work",
       "layout": "split"
     },
     {
       "id": "services",
-      "name": "Our Manufacturing Services",
-      "copy": "Custom Manufacturing Solutions: We specialize in custom manufacturing projects tailored to your specific requirements, from prototyping to full-scale production runs.\n\nPrecision Engineering: Our state-of-the-art equipment and skilled technicians deliver precision-engineered components and products with consistent quality.\n\nQuality Control & Assurance: Every product undergoes rigorous quality control processes to ensure it meets specifications and industry standards before delivery.\n\nProduct Development Support: We work closely with clients from design phase through production, offering technical expertise to optimize manufacturability and cost-effectiveness.\n\nMaterial Sourcing & Procurement: Leveraging our industry connections, we source quality raw materials at competitive prices to keep your costs manageable.\n\nTimely Production & Delivery: We understand the importance of deadlines. Our efficient processes ensure your products are manufactured and delivered on schedule.",
-      "imagePrompt": "Grid layout of six distinct manufacturing processes in a Jos factory: CNC machining with metal shavings, quality inspection with calipers, assembly line with workers, raw material storage area, finished products packaging, delivery truck loading - all showing professional Nigerian industrial operations, bright industrial lighting, clean organized workspace, safety compliance visible",
-      "layout": "grid"
+      "name": "Our Services",
+      "copy": "**Agricultural Technology Solutions** – We provide farmers with access to modern farming tools, training, and tech-enabled farming practices that increase yield and reduce waste.\n\n**Food Processing & Packaging** – Our state-of-the-art facilities process raw agricultural products into market-ready goods with extended shelf life and preserved nutritional value.\n\n**Quality Agri-Food Products** – From grains and cereals to processed foods, we supply businesses and consumers with premium products sourced from trusted Nigerian farms.\n\n**Supply Chain Management** – We connect farmers directly to markets, eliminating middlemen and ensuring fair prices while maintaining product quality throughout the distribution chain.\n\n**Agricultural Training & Consulting** – We empower farmers and agribusiness entrepreneurs with knowledge, best practices, and strategic guidance to build profitable, sustainable operations.",
+      "imagePrompt": "Collage of Nigerian agricultural activities: farmer using mobile app in cassava field, packaged food products on modern shelves, delivery truck with fresh produce, training session with rural farmers under tree, vibrant colors, photorealistic, showing progression from farm to market",
+      "layout": "cards"
     },
     {
       "id": "why-choose-us",
-      "name": "Why Choose Aallie Ventures",
-      "copy": "Local Expertise, International Standards: We understand the Nigerian business environment while maintaining manufacturing standards that compete globally.\n\nExperienced Team: Our engineers and technicians bring years of manufacturing experience and continuous training to every project.\n\nCost-Effective Solutions: By operating in Jos with efficient processes, we offer competitive pricing without compromising on quality.\n\nReliable Partner: We build long-term relationships with our clients through consistent delivery, transparent communication, and dependable service.\n\nFlexible Production Capacity: Whether you need a small batch or large-scale production, we have the capacity and flexibility to meet your requirements.\n\nStrategic Jos Location: Our location in Jos North provides easy access for clients across Northern and Central Nigeria while maintaining lower operational costs.",
-      "imagePrompt": "Split screen composition showing Aallie Ventures' manufacturing excellence: left side displays precision measurement tools, certificates, and quality badges; right side shows satisfied Nigerian business owners shaking hands with factory manager, backdrop of completed manufactured products, professional industrial setting in Jos, natural lighting, sense of trust and partnership",
-      "layout": "cards"
+      "name": "Why Choose Is Blessed",
+      "copy": "**Technology-Driven Excellence** – We combine traditional agricultural wisdom with cutting-edge FoodTech innovations to deliver superior results.\n\n**Quality Assurance** – Every product undergoes rigorous quality checks, ensuring you receive only the finest agri-food products Nigeria has to offer.\n\n**Supporting Local Farmers** – We create sustainable livelihoods by partnering directly with Nigerian farmers, providing them fair prices and access to larger markets.\n\n**Nationwide Reach** – Based in Kaduna with operations across Nigeria, we serve businesses and communities from Lagos to Maiduguri, ensuring timely delivery and consistent supply.\n\n**Commitment to Sustainability** – Our practices prioritize environmental responsibility, food security, and long-term agricultural sustainability for future generations.",
+      "imagePrompt": "Happy Nigerian farmer shaking hands with Is Blessed representative in flourishing farm, both smiling, modern farming equipment visible, sunset lighting, authentic African agricultural scene, photorealistic, conveying partnership and trust, green fields stretching into distance",
+      "layout": "grid"
     },
     {
       "id": "contact",
       "name": "Get In Touch",
-      "copy": "Ready to discuss your manufacturing needs? Aallie Ventures is here to help turn your ideas into reality. Contact us today for a consultation and discover how our manufacturing expertise can benefit your business. We're located in Jos North and ready to serve clients across Nigeria.\n\nVisit our facility at COCiN LCC1 Furaka, Jos North, Plateau State, or reach out via phone or WhatsApp. Our team is available to answer your questions, provide quotes, and discuss how we can support your manufacturing requirements. Let's build something great together.",
-      "imagePrompt": "Welcoming photograph of Aallie Ventures' office reception area in Jos, showing friendly Nigerian receptionist at modern desk, company signage visible, comfortable waiting area with manufactured product samples on display, bright natural lighting, professional yet approachable atmosphere, view of manufacturing floor through glass partition in background",
+      "copy": "Ready to partner with Nigeria's leading FoodTech innovator? Whether you're a farmer looking to expand your reach, a business seeking quality agri-food products, or an investor interested in the future of Nigerian agriculture, Is Blessed Foods Technology Limited is here to serve you. Contact us today and let's grow together.",
+      "imagePrompt": "Modern Nigerian office reception area with Is Blessed Foods Technology branding, professional receptionist at desk, warm lighting, plants and agricultural imagery on walls, welcoming atmosphere, large windows showing Kaduna cityscape, photorealistic",
       "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "+234 817 475 8059",
-    "email": "info@allieventures.ng",
-    "address": "COCiN LCC1 Furaka, Jos North, Plateau State, Nigeria",
-    "whatsapp": "https://wa.me/2348174758059"
+    "phone": "+234 803 967 2303",
+    "email": "info@isblessedng.com",
+    "address": "Pp10 Warri Street by Kano Road, Kaduna, Nigeria",
+    "whatsapp": "https://wa.me/2348039672303"
   }
 }
